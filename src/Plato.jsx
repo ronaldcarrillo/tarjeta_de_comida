@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './plato.css';
+
 const Plato = ({ img, titulo, ingrediente1, ingrediente2, ingrediente3 }) => {
   const [contador, setContador] = useState(0);
   return (
     <div className="tarjeta">
       <div className="foto">
-        <img src={`tarjeta_de_comida/imagenes/${img}`} alt="" />
+        <img src={`./../public/img/${img}`} alt="img" />
       </div>
       <h2>{titulo}</h2>
       <ul>
