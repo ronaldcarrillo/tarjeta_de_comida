@@ -5,7 +5,7 @@ const Plato = ({ img, titulo, ingrediente1, ingrediente2, ingrediente3 }) => {
   return (
     <div className="tarjeta">
       <div className="foto">
-        <img src={`/imagenes/${img}`} alt="" />
+        <img src={`tarjeta_de_comida/imagenes/${img}`} alt="" />
       </div>
       <h2>{titulo}</h2>
       <ul>
